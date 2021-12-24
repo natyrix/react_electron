@@ -1,3 +1,41 @@
 .form{
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width: calc(300px + 2vmin);
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+input:focus-within{
+  border: none;
+  border-bottom: 1px solid black;
+}
+button{
   margin-top: 1rem;
+  border: none;
+  padding: 17px;
+  background-color: #559256;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

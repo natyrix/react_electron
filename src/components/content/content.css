@@ -1,0 +1,44 @@
+.content-one span{
+  color: blue;
+}
+.content-txt {
+  text-align: center;
+}
+.content-txt span{
+  color: white;
+}
+.content-div{
+  display: flex;
+  margin-top: 1rem;
+}
+.content{
+  margin-bottom: 1rem;
+}
+.content-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-info div{
+  width: 20px;
+  height: 10px;
+  margin: 1rem;
+}
+.content-info .blue{
+  background-color: blue;
+}
+.content-info .red{
+  background-color: red;
+}
+.info-txt{
+  color: #282c34 !important;
+  font-weight: bold;
+}
+.info-btn{
+  background-color: #282c34;
+  color: white;
+  padding: 17px;
+}
+content-one{
+  animation: all 1s ease;
+}
